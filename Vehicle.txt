@@ -1,0 +1,18 @@
+Sure, let's create a lesson where you'll implement classes and methods in Java. We won't give you the exact code but will provide guidance on the task.
+
+Task: Create a class hierarchy representing different types of vehicles with their top speed and number of wheels. Implement methods to display the vehicle's details.
+
+Requirements:
+
+Create a base class Vehicle with properties for top speed and number of wheels.
+Implement a constructor for the Vehicle class that takes two arguments (top speed and number of wheels) and sets the properties accordingly.
+Create a method displayDetails in the Vehicle class that prints the vehicle's top speed and number of wheels.
+Create two subclasses, Car and Motorcycle, that inherit from the Vehicle class.
+Implement constructors for the Car and Motorcycle classes that take top speed and number of wheels as arguments and pass them to the superclass constructor.
+Override the displayDetails method in each subclass to provide a specific message for each vehicle type, including the top speed and number of wheels.
+Hints:
+
+Use the extends keyword to create subclasses.
+Use the super keyword to call the superclass constructor from a subclass constructor.
+Use the @Override annotation to indicate that you're overriding a method in a subclass.
+Once you've implemented the classes and methods, create a main method to test your implementation. Instantiate a Car and a Motorcycle object, and call their displayDetails methods. Share your code, and I'll provide feedback!
